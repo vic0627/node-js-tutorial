@@ -31,3 +31,4 @@ app.delete("/", (req, res) => {
   res.send(`User ${user.name} has been deleted!`);
 });
 
+export default app;
